@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 30px; */
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: black;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-section{
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    position: relative;
+    height: 400px;
+    width: 350px;
+    background-color: bisque;
+    border-radius: 5px;
+
+}
+
+
+#main_table{
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+
+    border-radius: 5px;
+    border-spacing: 5px;
+}
+
+#rowst{
+    height: 16%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#row-cells{
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+#text-section{
+    position:relative;
+    width: 100%;
+    height: 30vh;
+    background-color: darkcyan ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texting{
+    width: 70%;
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right{
+    background-color: greenyellow;
+}
+
+.misplace{
+    background-color: yellow;
+}
+
+.wrong{
+    background-color: grey;
+}
+
+#what{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+#where{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#inst{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    width: 70%;
+    height: 70%;
+    border: 2px solid rgb(0, 53, 53);
+    align-items: center;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+#main_table2{
+    height: 100%;
+    width: 350px;
+    border-radius: 5px;
+    border-spacing: 5px;
+    margin: 50px 0;
+}
+
+
+#row-cells2{
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+#hurraypage{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.forhide{
+    display: none;
+}
+
+#hur_text{
+    height: 60%;
+    background-color: hsl(0, 0%, 96%,0.8);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.btn{
+    width: 40%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 2px solid black;
+    background-color: darkcyan;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    margin: 20px 0;
+    font-size: 30px;
+}
